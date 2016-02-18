@@ -18,8 +18,5 @@
 		<property name="password" value="password" />
 	</bean>
 	
-	<bean id="loginDaoImpl" class="com.dao.LoginDaoImpl"></bean>
-	<bean id="loginActionBean" class="com.actionclasses.LoginActionBean"/>
-	
 	<context:annotation-config/>
 	</beans>
